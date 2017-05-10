@@ -1,0 +1,36 @@
+.glyphicon {
+  margin: 0.5em;
+  font-size: 24px;
+}
+
+.card span{
+  display: inline-block;;
+  margin: 0.5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.answer span{
+  display: inline-block;;
+  margin: 0.5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #eee !important;
+  color: #ddd;
+  cursor: not-allowed !important;
+}
+
+.used {
+  background-color: #aaddaa !important;
+  color: #99bb99;
+  cursor: not-allowed !important;
+}
